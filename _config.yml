@@ -55,8 +55,8 @@ github:
   repo:           https://github.com/krisztian-hofstadter-tedor/m4mi
 
 disqus:
-  shortname:      hydeout
+  shortname:      https-stech-khofstadter-info.disqus.com
 
-google_analytics: UA-100461102-1
+google_analytics: UA-125796353-3
 
 future: true
