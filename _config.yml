@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            STECH
-tagline:          'music for the moving image'
-description:      'music for the moving image'
+tagline:          'sensor technology'
+description:      'sensor technology'
 url:              # https://fongandrew.github.io
 baseurl:          #'/hydeout'
                   # the optional subpath of your site, e.g. "/blog"
@@ -34,7 +34,7 @@ exclude:
   - README.md
   - .gitignore
 
-permalink:        /:year/:month/:day/:title.html
+# permalink:        /:year/:month/:day/:title.html
 
 defaults:
   - scope:
@@ -55,7 +55,7 @@ github:
   repo:           https://github.com/krisztian-hofstadter-tedor/stech
 
 disqus:
-  shortname:      https-stech-khofstadter-info.disqus.com
+  shortname:      hydeout
 
 google_analytics: UA-125796353-3
 
