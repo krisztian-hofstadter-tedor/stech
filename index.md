@@ -11,6 +11,7 @@ in relation to sound and vision.
 
 <br>
 
+<!--
 ## Blog
 
 <ul class="myposts">
@@ -27,3 +28,5 @@ in relation to sound and vision.
 <br>
 
 by [K.Hofstadter](https://khofstadter.info)
+
+-->
