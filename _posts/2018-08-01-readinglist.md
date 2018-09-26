@@ -11,4 +11,4 @@ tags:
 ---
 
 ## ARU Reading List
-Can be found [here](https://anglia.rl.talis.com/lists/9E63BB1B-E8FC-6F90-1082-930B0A6BAB2A.html).
+Can be found [here](https://anglia.rl.talis.com/lists/2B20BBAC-CE08-3474-400A-81941145F37A.html).
