@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-25T11:22:08+01:00</updated><id>http://localhost:4000/</id><title type="html">STECH</title><subtitle>sensor technology</subtitle><author><name>Krisztian Hofstadter</name></author><entry><title type="html">week 12 | final demo</title><link href="http://localhost:4000/week12" rel="alternate" type="text/html" title="week 12 | final demo" /><published>2018-12-13T00:00:00+00:00</published><updated>2018-12-13T00:00:00+00:00</updated><id>http://localhost:4000/w12</id><content type="html" xml:base="http://localhost:4000/week12">&lt;p&gt;Final screening before submission, room to be confirmed.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-02T09:27:23+01:00</updated><id>http://localhost:4000/</id><title type="html">STECH</title><subtitle>sensor technology</subtitle><author><name>Krisztian Hofstadter</name></author><entry><title type="html">week 12 | final demo</title><link href="http://localhost:4000/week12" rel="alternate" type="text/html" title="week 12 | final demo" /><published>2018-12-13T00:00:00+00:00</published><updated>2018-12-13T00:00:00+00:00</updated><id>http://localhost:4000/w12</id><content type="html" xml:base="http://localhost:4000/week12">&lt;p&gt;Final screening before submission, room to be confirmed.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;hr /&gt;
@@ -114,23 +114,116 @@ we help each other with code, ideas, …&lt;/p&gt;
 
 &lt;h2 id=&quot;outline&quot;&gt;outline&lt;/h2&gt;
 
-&lt;p&gt;Aims: &lt;br /&gt;
-Understanding the basic functions of Arduino: power, digital and analogue I/O, communications as well as signal visualisation. Understanding common and affordable sensors used in creative music technology.&lt;/p&gt;
-
+&lt;p&gt;Aims:&lt;/p&gt;
 &lt;ul&gt;
+  &lt;li&gt;understanding basic functions of Arduino: power, digital and analogue I/O, communications;&lt;/li&gt;
+  &lt;li&gt;understanding common and affordable sensors used in creative music technology;&lt;/li&gt;
+  &lt;li&gt;understanding examples of interfacing with SuperCollider and Max;&lt;/li&gt;
   &lt;li&gt;discussing a1;&lt;/li&gt;
-  &lt;li&gt;demonstration of the basic functions of the Arduino;&lt;/li&gt;
-  &lt;li&gt;examples of interfacing with SuperCollider and Max;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;…&lt;/p&gt;
-
-&lt;hr /&gt;
 &lt;hr /&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.” ~ Albert Einstein&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;arduino-basics&quot;&gt;Arduino Basics&lt;/h2&gt;
+
+&lt;p&gt;Note: Demonstrations in class will use the &lt;a href=&quot;https://store.arduino.cc/arduino-uno-rev3&quot;&gt;Arduino Uno Rev3&lt;/a&gt; board. You can use other boards for your project of course.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.arduino.cc/en/uploads/Products/Uno.jpg&quot; alt=&quot;Arduino&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hardware&quot;&gt;Hardware&lt;/h3&gt;
+&lt;h4 id=&quot;power&quot;&gt;Power&lt;/h4&gt;
+&lt;p&gt;Operating voltage is 5V, input voltage 7-12V (recommended). Limits are 6-20V, don’t exceed these, you can harm your board.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What is the difference between USB and external power supply power (VIN)?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The external can give you more current and you can operate the Arduino without your computer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is your computer safe? ‘If more than 500 mA is applied to the USB port, the fuse will automatically break the connection until the short or overload is removed.’ (&lt;a href=&quot;http://arduino.cc/en/Main/arduinoBoardUno&quot;&gt;source&lt;/a&gt;). Also, new computers will sense when more current is trying to be drawn, therefore they disconnect (&lt;a href=&quot;http://forum.arduino.cc/index.php/topic,11432.0.html&quot;&gt;source&lt;/a&gt;). An option for adapter use &lt;a href=&quot;http://forum.arduino.cc/index.php/topic,11432.0.html&quot;&gt;here&lt;/a&gt;. Remember, you can also have a &lt;a href=&quot;https://www.ecosia.org/search?q=arduino+battery+pack&amp;amp;addon=opensearch&quot;&gt;battery pack&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What is DC Current per I/O Pin?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;40mA (0.040A). This is how much current (Amp) you can access through the pins. ‘This is enough current to brightly light up an LED, or run many sensors, for example, but not enough current to run most relays, solenoids, or motors.’ (&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/DigitalPins&quot;&gt;source&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you need more current (Amp)for a device you need the main circuit (5V and ground).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Why should you never pull a full 40mA from one digital pin? What does this mean?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;‘running high current devices from them (digital pins), can damage or destroy the output transistor in the pin, or damage the entire Atmega chip. …’ (&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/DigitalPins&quot;&gt;source&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What is the total current I can access through a a) single I/O pin, b) all I/O pins, c) 5v when USB, d) 5v external power adapter?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;a) 40mA;  &lt;br /&gt;
+b) 200mA; &lt;br /&gt;
+c) 400mA;   (why not the max 500mA?) &lt;br /&gt;
+d) 900mA; &lt;br /&gt;
+&lt;a href=&quot;https://arduino.stackexchange.com/questions/88/is-there-a-limit-on-how-much-current-a-pin-can-sink&quot;&gt;source&lt;/a&gt; &lt;br /&gt;
+Interesting: &lt;a href=&quot;http://www.gadgetmakersblog.com/arduino-power-consumption/&quot;&gt;Arduino power consumption demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+todo:
+what about USB3?
+--&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;How do I find out whether I have enough current for my sensors, servos?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When you buy something make sure you check the specifications. The info should indicate how much current (Amp) your sensor will use (&lt;a href=&quot;http://www.adafruit.com/datasheets/tsop382.pdf&quot;&gt;check&lt;/a&gt;). For most of our examples, the USB will give you enough current to operate a few sensors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;When to use a resistor and which one?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Arduino operates on a 5V circuit. You don’t need a resistor in case you use a component e.g. a sensor that is designed to work in a 5V circuit (IR sensor – &lt;a href=&quot;https://www.adafruit.com/product/1031&quot;&gt;check&lt;/a&gt; the data sheet for operating voltage). However, sometimes you want to use a component e.g. an LED, which needs less than 5V electric pressure to operate on. In this case, you need resistor. You can use &lt;a href=&quot;https://www.youtube.com/watch?v=-mHLvtGjum4&quot;&gt;Ohm’s law&lt;/a&gt; to calculate what resistor you need.&lt;/p&gt;
+
+&lt;h4 id=&quot;io-analogue-and-digital&quot;&gt;I/O (analogue and digital)&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Analogue&lt;/strong&gt;: 0-5V is scaled to 0-1023&lt;/p&gt;
+
+&lt;p&gt;Further info: &lt;a href=&quot;http://arduino.cc/en/Reference/analogRead&quot;&gt;analogRead&lt;/a&gt;, &lt;a href=&quot;https://learn.sparkfun.com/tutorials/analog-to-digital-conversion&quot;&gt;ADC&lt;/a&gt;;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Digital&lt;/strong&gt;: HIGH (5V) or LOW(0)&lt;/p&gt;
+
+&lt;p&gt;Further info: &lt;a href=&quot;https://www.arduino.cc/en/Reference/digitalRead&quot;&gt;digitalRead&lt;/a&gt;, &lt;a href=&quot;https://www.arduino.cc/en/Reference/DigitalWrite&quot;&gt;digitalWrite&lt;/a&gt;, &lt;a href=&quot;https://www.arduino.cc/en/Tutorial/DigitalPins&quot;&gt;digital pins&lt;/a&gt;;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Can the analogue inputs be used as outputs?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yes, you can define them as digital outputs (&lt;a href=&quot;https://www.arduino.cc/en/Reference/PinMode&quot;&gt;pinMode&lt;/a&gt;, &lt;a href=&quot;https://www.arduino.cc/en/Tutorial/DigitalPins&quot;&gt;digitalPins&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Can I output analogue signals?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, you can use Pulse Width Modulation (&lt;a href=&quot;https://www.arduino.cc/en/Tutorial/PWM&quot;&gt;PWM&lt;/a&gt;). Used with LED, Servo, …we’ll look into this later.&lt;/p&gt;
+
+&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;What is the Arduino language?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Arduino C. ‘The C you are about to learn is not standard C. Rather, you will be learning a robust subset of standard C. A few standard C features are missing. But the absence of those features is not a crippling blow by any means. You will soon discover that the subset version of standard C, which we will call Arduino C, is more than able to perform just about any task you can throw at it. The missing features can easily be worked around, albeit sometimes in a less elegant manner.’&lt;/p&gt;
+
+&lt;p&gt;Source: Purdum, 2012 Beginning C for Arduino&lt;/p&gt;
+
+&lt;h2 id=&quot;multimeter&quot;&gt;Multimeter&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Digital_Multimeter_Aka.jpg/220px-Digital_Multimeter_Aka.jpg&quot; alt=&quot;Multimeter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What can we use the multimeter for?&lt;/p&gt;
+
+&lt;p&gt;Measure voltage of Arduino, resistance of resistor, LDR, potentiometer, … and of course much more.&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-material&quot;&gt;Learning Material&lt;/h3&gt;
+
+&lt;p&gt;Please download learning material from  &lt;a href=&quot;https://www.dropbox.com/sh/ofq61i1g0c927h0/AADnuiMJlodxQMpOinUahPKMa?dl=0&quot;&gt;here&lt;/a&gt;. Let’s work together.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;blockquote&gt;
   &lt;blockquote&gt;
