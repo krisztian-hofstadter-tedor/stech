@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-08T20:11:12+01:00</updated><id>http://localhost:4000/</id><title type="html">STECH</title><subtitle>sensor technology</subtitle><author><name>Krisztian Hofstadter</name></author><entry><title type="html">week 12 | final demo</title><link href="http://localhost:4000/week12" rel="alternate" type="text/html" title="week 12 | final demo" /><published>2018-12-13T00:00:00+00:00</published><updated>2018-12-13T00:00:00+00:00</updated><id>http://localhost:4000/w12</id><content type="html" xml:base="http://localhost:4000/week12">&lt;p&gt;Final screening before submission, room to be confirmed.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-09T10:58:57+01:00</updated><id>http://localhost:4000/</id><title type="html">STECH</title><subtitle>sensor technology</subtitle><author><name>Krisztian Hofstadter</name></author><entry><title type="html">week 12 | final demo</title><link href="http://localhost:4000/week12" rel="alternate" type="text/html" title="week 12 | final demo" /><published>2018-12-13T00:00:00+00:00</published><updated>2018-12-13T00:00:00+00:00</updated><id>http://localhost:4000/w12</id><content type="html" xml:base="http://localhost:4000/week12">&lt;p&gt;Final screening before submission, room to be confirmed.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;hr /&gt;
@@ -96,11 +96,18 @@ a2 work on together;&lt;/p&gt;
   &lt;/blockquote&gt;
 &lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><summary type="html">. a2 . speakers . servos . MIDI</summary></entry><entry><title type="html">week 03 | demonstrations</title><link href="http://localhost:4000/week03" rel="alternate" type="text/html" title="week 03 | demonstrations" /><published>2018-10-11T00:00:00+01:00</published><updated>2018-10-11T00:00:00+01:00</updated><id>http://localhost:4000/w03</id><content type="html" xml:base="http://localhost:4000/week03">&lt;h2 id=&quot;outline&quot;&gt;outline&lt;/h2&gt;
 
-&lt;p&gt;we will continue with the learning material and focus on interfacing software; 
+&lt;p&gt;we will continue with the learning material and focus on interfacing software;
 we demonstrate our progress with a2;  &lt;br /&gt;
 we help each other with code, ideas, …&lt;/p&gt;
 
 &lt;hr /&gt;
+
+&lt;h2 id=&quot;further-notes&quot;&gt;further notes&lt;/h2&gt;
+
+&lt;p&gt;deadline changed to 2pm Thursday 20 December; &lt;br /&gt;
+you still will need to only submit one file on Canvas; &lt;br /&gt;
+the rest on GitHub;&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;blockquote&gt;
