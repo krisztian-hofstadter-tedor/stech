@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-23T15:26:35+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">STECH</title><subtitle>sensor technology</subtitle><author><name>Krisztian Hofstadter</name></author><entry><title type="html">week 12 | final demo</title><link href="http://localhost:4000/week12" rel="alternate" type="text/html" title="week 12 | final demo" /><published>2018-12-13T00:00:00+00:00</published><updated>2018-12-13T00:00:00+00:00</updated><id>http://localhost:4000/w12</id><content type="html" xml:base="http://localhost:4000/week12">&lt;p&gt;Final screening before submission, room to be confirmed.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-29T15:37:43+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">STECH</title><subtitle>sensor technology</subtitle><author><name>Krisztian Hofstadter</name></author><entry><title type="html">week 12 | final demo</title><link href="http://localhost:4000/week12" rel="alternate" type="text/html" title="week 12 | final demo" /><published>2018-12-13T00:00:00+00:00</published><updated>2018-12-13T00:00:00+00:00</updated><id>http://localhost:4000/w12</id><content type="html" xml:base="http://localhost:4000/week12">&lt;p&gt;Final screening before submission, room to be confirmed.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;hr /&gt;
@@ -20,12 +20,13 @@
       &lt;p&gt;back to &lt;a href=&quot;../aru2018#syllabus&quot;&gt;syllabus&lt;/a&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><category term="feedback" /><summary type="html">. group and individual feedback sessions</summary></entry><entry><title type="html">week 08 | guest talk</title><link href="http://localhost:4000/week08" rel="alternate" type="text/html" title="week 08 | guest talk" /><published>2018-11-15T00:00:00+00:00</published><updated>2018-11-15T00:00:00+00:00</updated><id>http://localhost:4000/w08</id><content type="html" xml:base="http://localhost:4000/week08">&lt;p&gt;Guest TBC.&lt;/p&gt;
-
-&lt;p&gt;Once I know what you are interested in, I will start searching for options.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
+&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><category term="feedback" /><summary type="html">. group and individual feedback sessions</summary></entry><entry><title type="html">week 08 | GitHub website</title><link href="http://localhost:4000/week08" rel="alternate" type="text/html" title="week 08 | GitHub website" /><published>2018-11-15T00:00:00+00:00</published><updated>2018-11-15T00:00:00+00:00</updated><id>http://localhost:4000/w08</id><content type="html" xml:base="http://localhost:4000/week08">&lt;ul&gt;
+  &lt;li&gt;We’ll create a GitHub account with a repository;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;then-well-look-into-making-a-website-in-this-repository&quot;&gt;Then we’ll look into making a website in this repo(sitory);&lt;/h2&gt;
+    &lt;hr /&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;blockquote&gt;
   &lt;blockquote&gt;
@@ -33,7 +34,7 @@
       &lt;p&gt;back to &lt;a href=&quot;../aru2018#syllabus&quot;&gt;syllabus&lt;/a&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><category term="guest talk" /><summary type="html">. guest talk</summary></entry><entry><title type="html">week 07 | performance or installation</title><link href="http://localhost:4000/week07" rel="alternate" type="text/html" title="week 07 | performance or installation" /><published>2018-11-08T00:00:00+00:00</published><updated>2018-11-08T00:00:00+00:00</updated><id>http://localhost:4000/w07</id><content type="html" xml:base="http://localhost:4000/week07">&lt;h2 id=&quot;outline&quot;&gt;outline&lt;/h2&gt;
+&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><category term="Github" /><category term="Website" /><summary type="html">. Github account . basic website</summary></entry><entry><title type="html">week 07 | performance or installation</title><link href="http://localhost:4000/week07" rel="alternate" type="text/html" title="week 07 | performance or installation" /><published>2018-11-08T00:00:00+00:00</published><updated>2018-11-08T00:00:00+00:00</updated><id>http://localhost:4000/w07</id><content type="html" xml:base="http://localhost:4000/week07">&lt;h2 id=&quot;outline&quot;&gt;outline&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;exploring ideas for a3, performance/exhibition assignment;&lt;/li&gt;
@@ -48,13 +49,10 @@
       &lt;p&gt;back to &lt;a href=&quot;../aru2018#syllabus&quot;&gt;syllabus&lt;/a&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><category term="programming" /><category term="website" /><summary type="html">. a3</summary></entry><entry><title type="html">week 06 | visuals, GitHub and videos</title><link href="http://localhost:4000/week06" rel="alternate" type="text/html" title="week 06 | visuals, GitHub and videos" /><published>2018-11-01T00:00:00+00:00</published><updated>2018-11-01T00:00:00+00:00</updated><id>http://localhost:4000/w06</id><content type="html" xml:base="http://localhost:4000/week06">&lt;h2 id=&quot;outlined&quot;&gt;outlined&lt;/h2&gt;
+&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><category term="performance" /><category term="installation" /><summary type="html">. discussing ideas for a3</summary></entry><entry><title type="html">week 06 | progress</title><link href="http://localhost:4000/week06" rel="alternate" type="text/html" title="week 06 | progress" /><published>2018-11-01T00:00:00+00:00</published><updated>2018-11-01T00:00:00+00:00</updated><id>http://localhost:4000/w06</id><content type="html" xml:base="http://localhost:4000/week06">&lt;h2 id=&quot;outlined&quot;&gt;outlined&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;examples of basic SuperCollider visuals;&lt;/li&gt;
-  &lt;li&gt;examples of basic Jitter (Max) visuals;&lt;/li&gt;
-  &lt;li&gt;example on how to setup a GitHub page for submission;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;we demonstrate our progress with a2 (and a1);  &lt;br /&gt;
+we help each other with code, ideas, …&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;hr /&gt;
@@ -65,7 +63,7 @@
       &lt;p&gt;back to &lt;a href=&quot;../aru2018#syllabus&quot;&gt;syllabus&lt;/a&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><summary type="html">. jitter . GitHub . making videos</summary></entry><entry><title type="html">week 05 | arduino and music (hardware)</title><link href="http://localhost:4000/week04" rel="alternate" type="text/html" title="week 05 | arduino and music (hardware) " /><published>2018-10-25T00:00:00+01:00</published><updated>2018-10-25T00:00:00+01:00</updated><id>http://localhost:4000/w05</id><content type="html" xml:base="http://localhost:4000/week04">&lt;h2 id=&quot;outline&quot;&gt;outline&lt;/h2&gt;
+&lt;/blockquote&gt;</content><author><name>Krisztian Hofstadter</name></author><summary type="html">. your a2 progress</summary></entry><entry><title type="html">week 05 | arduino and music (hardware)</title><link href="http://localhost:4000/week04" rel="alternate" type="text/html" title="week 05 | arduino and music (hardware) " /><published>2018-10-25T00:00:00+01:00</published><updated>2018-10-25T00:00:00+01:00</updated><id>http://localhost:4000/w05</id><content type="html" xml:base="http://localhost:4000/week04">&lt;h2 id=&quot;outline&quot;&gt;outline&lt;/h2&gt;
 
 &lt;p&gt;this week, we’ll go through some examples for a2; &lt;br /&gt;
 I added more examples to the &lt;a href=&quot;../resources&quot;&gt;learning material&lt;/a&gt;, please check;&lt;/p&gt;
